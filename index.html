@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<style>
+    #pair1{
+        float:left;
+        color: #474f57 !important;
+        background-color: white;
+        text-decoration: none;
+        font-family: arial,sans-serif;
+    }
+    #pair2{
+        float:right;
+        color: #474f57;
+        background-color:whitesmoke;
+        font-family: arial,sans-serif;
+    }
+    .container{
+        min-height: 10px;
+        overflow: hidden;
+        background-color:whitesmoke;
+    }
+    #body1{
+        display:flex;
+        justify-content: center;
+        background-color: whitesmoke;
+        padding-top:100px;
+        padding-bottom:100px;
+    }
+    #q{
+        display:flex;
+        justify-content: center;
+        min-height: 35px;
+        padding-right: 15px;
+    }
+    #input{
+        font-size: 20px;
+    }
+    .border2{
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+    }
+</style>
+<html>
+    <header>
+        <div class ="container">
+            <div id="pair1">
+                <div
+                style =
+                "display:flex;
+                float:left;
+                padding-left: 20px;
+                padding-right: 5px;
+                "
+                >
+                    <a id = "pair1" href = "https://www.google.com" target ="_blank">About</a>
+                </div>
+                <div
+                style = 
+                "display:flex;
+                float:right;
+                padding-left: 5px;
+                padding-right: 20px;
+                "
+                >
+                    Store
+                </div>
+            </div>
+            <div id="pair2">
+                <div
+                style =
+                "display:flex;
+                float:left;
+                padding-left: 20px;
+                padding-right: 5px;
+                "
+                >
+                    Gmail
+                </div>
+                <div
+                style = 
+                "display:flex;
+                float:right;
+                padding-left: 5px;
+                padding-right: 20px;
+                "
+                >
+                    Images
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <div id="body1">
+            <img 
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="google"></img>
+        </div>
+        <div id="q">
+            <div>
+                <input type ="text" placeholder="search" id="input"></input>
+            </div>
+            <div 
+            class="border2"
+            style = "font-size: 20px; padding-left: 10px;">
+                test
+            </div>
+        </div>
+    </body>  
+</html>

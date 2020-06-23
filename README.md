@@ -1,5 +1,5 @@
 Recreating Google's Homepage to practice CSS. 
-I should learn
+I should learn:
 
     Two ways to move a div around on the page
     Stick a div onto the bottom or top of the page

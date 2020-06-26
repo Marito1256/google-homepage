@@ -58,6 +58,30 @@
         box-shadow:none;
         padding-left: 30px;
     }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background-color: #f2f2f2;
+        position:fixed;
+        float: left;
+        bottom: 0;
+        height:40px;
+        width: 100vw;
+    }
+    #fbutton{
+        display: flex;
+        float:left;
+        padding: 10px;
+    }
+    #infoot{
+        /* for the div elements within the footer */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .my-spacer {
+    width: 1200px;
+}
 </style>
 <html>
     <header>
@@ -132,4 +156,33 @@
             </div>
         </div>
     </body>  
+    <footer>
+        <div class="footer">
+            <div id = "infoot" style="float: left;">
+                <div id = "fbutton">
+                   <a target = "_blank" href = "https://imgur.com/gallery/vyIA7qf" style = "text-decoration: none; color: #474f57;
+                   ">business</a>
+                </div>
+            </div>
+            <div id = "infoot" style="float: left;">
+                <div id = "fbutton">
+                    <a target = "_blank" href = "https://imgur.com/gallery/vyIA7qf" style = "text-decoration: none; color: #474f57;
+                    ">privacy</a>
+                </div>
+            </div>
+            <div class = "my-spacer"></div>
+            <div id = "infoot" style = "float: right;">
+                <div id =  "fbutton">
+                    <a target = "_blank" href = "https://imgur.com/gallery/vyIA7qf" style = "text-decoration: none; color: #474f57;
+                    ">right</a>
+                </div>
+            </div>
+            <div id = "infoot" style = "float: right;">
+                <div id =  "fbutton">
+                    <a target = "_blank" href = "https://imgur.com/gallery/vyIA7qf" style = "text-decoration: none; color: #474f57;
+                    ">even more right</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>
